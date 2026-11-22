@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Tech Symposium Registration</title>
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom External CSS (linked after Bootstrap to allow overrides) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header id="hero-section" class="text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold">2026 Tech Symposium</h1>
+            <p class="lead">Empowering Next-Gen Innovators in Web, AI, and Cloud Architecture</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        
+        <!-- Event Highlights Section -->
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Event Highlights</h2>
+            <div class="row g-4">
+                
+                <!-- Card 1 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Guest Speakers</h5>
+                            <p class="card-text">Hear directly from industry leaders in Software Engineering, Data Science, and Cybersecurity sharing trends for 2026.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Hands-on Workshops</h5>
+                            <p class="card-text">Participate in practical, step-by-step coding labs focused on full-stack web applications and API deployment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Networking & Career</h5>
+                            <p class="card-text">Connect with fellow university students, alumni, and potential tech recruiters during interactive mixer sessions.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Registration Form Section -->
+        <section class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <h2 class="text-center mb-4">Register Now</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="studentEmail" class="form-label">Student Email</label>
+                        <input type="email" class="form-control" id="studentEmail" placeholder="name@university.edu.ph" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="courseMajor" class="form-label">Course / Major</label>
+                        <input type="text" class="form-control" id="courseMajor" placeholder="e.g., BS Information Technology" required>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success btn-lg">Submit Registration</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bootstrap 5 JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

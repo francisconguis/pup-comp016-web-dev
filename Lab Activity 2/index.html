@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student IT Association</title>
+</head>
+<body>
+
+    <!-- Part 1: Header Section -->
+    <header>
+        <h1>Student IT Association</h1>
+        <nav>
+            <a href="#about">About Us</a> | 
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Part 2: Organization Info Section -->
+        <section id="about">
+            <h2>About the Organization</h2>
+            <p>
+                The <strong>Student IT Association</strong> is a community of aspiring developers,
+                designers, and tech enthusiasts dedicated to growing practical skills in software
+                development. We host <em>workshops</em>, <em>hackathons</em>, and peer mentoring
+                sessions throughout the year to help members build real-world projects and
+                <strong>launch their careers in technology</strong>.
+            </p>
+
+            <h3>Membership Requirements</h3>
+            <ul>
+                <li>Must be currently enrolled in an IT or technology-related degree program.</li>
+                <li>Maintain a passion for software development, networking, or computer science.</li>
+                <li>Active participation in monthly workshops and tech seminars.</li>
+            </ul>
+
+            <h3>Featured Video & Logo</h3>
+            <!-- Embedded YouTube Video -->
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/gQojMIhELvM?si=SZyDvasdrxXXZAIC" 
+                title="Web Development Tutorial For Beginners - how to make a website" 
+                allowfullscreen>
+            </iframe>
+
+            <!-- Placeholder Image -->
+            <img src="SITA Logo.jpg" alt="Student IT Association Logo" width="560" height="315">
+        </section>
+
+        <hr>
+
+        <!-- Part 3: HTML5 Registration Form Section -->
+        <section id="register">
+            <h2>Membership Registration Form</h2>
+            <form action="#" method="POST">
+                
+                <!-- Full Name -->
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
+                </p>
+
+                <!-- Email Address -->
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="student@pup.edu.ph" required>
+                </p>
+
+                <!-- Date of Birth -->
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob">
+                </p>
+
+                <!-- Year Level -->
+                <p>
+                    <label for="yearlevel">Year Level:</label><br>
+                    <input type="number" id="yearlevel" name="yearlevel" min="1" max="5">
+                </p>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit">Submit Registration</button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Part 1: Footer Section -->
+    <footer>
+        <p>&copy; 2026 Student IT Association. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
